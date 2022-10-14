@@ -14,7 +14,7 @@ import pylab
 
 def main():
     
-    path = r'C:\Users\abhis\OneDrive\Desktop\MIT\6002_Intro_to computational_thinking\Code\Lecture8\temperatures.csv'
+    path = 'temperatures.csv'
     population = readdata(path)
     dict_pop = YearlyTemp(population)
     xval, yval = xval_yval(dict_pop)
