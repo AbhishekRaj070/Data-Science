@@ -4,6 +4,7 @@ Created on Wed Oct 19 09:45:19 2022
 
 @author: abhis
 """
+## Titanic dataset to predict people survived
 def Minkowski(v1, v2, p):
     s= 0
     for i in range(len(v1)):
@@ -42,7 +43,7 @@ class Passenger(object):
         return f"{self.name}"
     
     
-def getData(path):  
+def getData(path):   ## can use the titanic dataset 
     samples = []                 
     data ={}
     data['pclass'], data['age'], data['gender'], data['label'], data['name']=[],[],[],[],[]
